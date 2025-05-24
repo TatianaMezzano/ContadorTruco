@@ -1,0 +1,45 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-color: beige;
+}
+
+h1{
+    text-align: center;
+    font-size: xx-large;
+}
+
+h2{
+    margin-top: 30px;
+    font-size: x-large;
+}
+
+#jugadores-container{
+    display: flex;
+    justify-content: center;
+}
+
+.jugador-container{
+    background-color: rgb(234, 233, 213);
+    border-radius: 5px;
+    width: 40vw;
+    min-height: 70vh;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botones-jugador{
+    position: fixed;
+    top: 65px;
+}
+
+button{
+    min-width: 60px;
+    font-size: xx-large;
+    background-color: rgb(200, 197, 193);
+    border-radius: 5px;
+}
